@@ -1,0 +1,82 @@
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+main {
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    margin-bottom: 8;
+    font-weight: 600;
+    text-align: left;
+}
+
+.social-links {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+}
+
+.social-links img {
+    height: 18px;
+    width: auto;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.social-links img:hover {
+    opacity: 1;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+b a {
+    font-weight: 600;
+}
+
+
+.custom-bullets {
+    list-style: none;
+    padding-left: 0;
+}
+
+.custom-bullets li {
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
+    padding-left: 35px; /* space for image */
+    margin-bottom: 10px;
+}
+
+.custom-bullets .one {
+    background-image: url(/attachments/ytMusicIcon.png);
+}
